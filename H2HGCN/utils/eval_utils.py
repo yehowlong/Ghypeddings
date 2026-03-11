@@ -1,0 +1,13 @@
+from sklearn.metrics import accuracy_score, f1_score, recall_score,precision_score,roc_auc_score
+ 
+def acc_f1(output, labels, average='binary'):
+    preds = output.max(1)[1].type_as(labels)
+    if preds.is_cuda:
+        preds = preds.cpu()
+        labels = labels.cpu()
+    accuracy = accuracy_score(labels,preds)
+    f1 = f1_score(labels,preds , average=average)
+    recall = recall_score(labels,preds)
+    precision = precision_score(labels,preds )
+    roc_auc = roc_auc_score(labels,preds)
+    return accuracy, f1 , recall,precision, roc_auc

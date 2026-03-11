@@ -1,0 +1,1 @@
+from Ghypeddings.HGNN.task.NodeClassificationTask import *
