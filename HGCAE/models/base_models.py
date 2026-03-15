@@ -1,16 +1,16 @@
-import Ghypeddings.HGCAE.models.encoders as encoders
+import HGCAE.models.encoders as encoders
 import torch
 import numpy as np
 import torch.nn as nn
 import torch.nn.functional as F
-from Ghypeddings.HGCAE.models.decoders import model2decoder
-from Ghypeddings.HGCAE.layers.layers import  InnerProductDecoder
+from HGCAE.models.decoders import model2decoder
+from HGCAE.layers.layers import  InnerProductDecoder
 from sklearn.metrics import roc_auc_score, average_precision_score
-from Ghypeddings.HGCAE.utils.eval_utils import acc_f1
+from HGCAE.utils.eval_utils import acc_f1
 from sklearn import cluster
 from sklearn.metrics import accuracy_score, normalized_mutual_info_score, adjusted_rand_score
-import Ghypeddings.HGCAE.manifolds as manifolds
-import Ghypeddings.HGCAE.models.encoders as encoders
+import HGCAE.manifolds as manifolds
+import HGCAE.models.encoders as encoders
 
 class BaseModel(nn.Module):
     """

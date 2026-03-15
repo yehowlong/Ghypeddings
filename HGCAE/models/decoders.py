@@ -1,5 +1,5 @@
 """Graph decoders."""
-import Ghypeddings.HGCAE.manifolds as manifolds
+import HGCAE.manifolds as manifolds
 import torch.nn as nn
 import torch.nn.functional as F
 
@@ -45,7 +45,7 @@ class Decoder(nn.Module):
 
 
 
-import Ghypeddings.HGCAE.layers.hyp_layers as hyp_layers
+import HGCAE.layers.hyp_layers as hyp_layers
 class HGCAEDecoder(Decoder):
     """
     Decoder for HGCAE

@@ -1,5 +1,5 @@
 from sklearn.neighbors import LocalOutlierFactor
-from Ghypeddings.anomaly_detection.utils import calculate_metrics
+from anomaly_detection.utils import calculate_metrics
 import numpy as np
 
 def local_outlier_factor(X,y,n_neighbors=20,outlier_percentage=.1):

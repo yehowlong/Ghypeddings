@@ -2,7 +2,7 @@
 Major codes of hyperbolic layers are from HGCN
 '''
 import torch
-from Ghypeddings.HGCAE.manifolds.base import Manifold
+from HGCAE.manifolds.base import Manifold
 
 
 class Euclidean(Manifold):

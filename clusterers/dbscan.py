@@ -1,4 +1,4 @@
-from Ghypeddings.clusterers.utils import calculate_metrics
+from clusterers.utils import calculate_metrics
 from sklearn.cluster import DBSCAN
 
 def dbscan(X,y,eps=1e-4,min_samples=300):

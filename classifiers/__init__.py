@@ -1,10 +1,10 @@
-from Ghypeddings.classifiers.svm import SVM
-from Ghypeddings.classifiers.mlp import mlp
-from Ghypeddings.classifiers.decision_tree import decision_tree
-from Ghypeddings.classifiers.random_forest import random_forest
-from Ghypeddings.classifiers.adaboost import adaboost
-from Ghypeddings.classifiers.knn import KNN
-from Ghypeddings.classifiers.naive_bayes import naive_bayes
+from classifiers.svm import SVM
+from classifiers.mlp import mlp
+from classifiers.decision_tree import decision_tree
+from classifiers.random_forest import random_forest
+from classifiers.adaboost import adaboost
+from classifiers.knn import KNN
+from classifiers.naive_bayes import naive_bayes
 
 from sklearn.metrics import accuracy_score , f1_score , recall_score , precision_score , roc_auc_score
 

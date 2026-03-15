@@ -1,4 +1,4 @@
-from Ghypeddings.anomaly_detection.utils import calculate_metrics
+from anomaly_detection.utils import calculate_metrics
 
 
 from sklearn.svm import OneClassSVM

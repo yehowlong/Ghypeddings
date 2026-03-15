@@ -603,12 +603,14 @@ class EllipticDataset(Dataset):
             features = pickle.load(f)
         with open(self.labels_path, 'rb') as f:
             labels = pickle.load(f)
-cted
-    
-    def save_samples(selhsf, adj, features, labels):
+
+    def save_samples(self, adj, features, labels):
         with open(self.adj_path, 'wb') as f:
             pickle.dump(adj, f)
-        with open(self.features_pat CoraDataset(Dataset):
+        with open(self.features_path, 'wb') as f:
+            pickle.dump(features, f)
+        with open(self.labels_path, 'wb') as f:
+            pickle.dump(labels, f)
     def __init__(self):
         super().__init__(
             features_path=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'examples', 'Cora', 'features.pkl'),

@@ -1,4 +1,4 @@
-from Ghypeddings.clusterers.utils import calculate_metrics
+from clusterers.utils import calculate_metrics
 
 from sklearn.cluster import KMeans
 

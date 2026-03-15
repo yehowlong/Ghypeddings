@@ -1,6 +1,6 @@
 """Graph encoders."""
-import Ghypeddings.HGCAE.manifolds as manifolds
-import Ghypeddings.HGCAE.layers.hyp_layers as hyp_layers
+import HGCAE.manifolds as manifolds
+import HGCAE.layers.hyp_layers as hyp_layers
 import torch
 import torch.nn as nn
 

@@ -1,5 +1,5 @@
 from sklearn.mixture import GaussianMixture
-from Ghypeddings.clusterers.utils import calculate_metrics
+from clusterers.utils import calculate_metrics
 
 def gaussian_mixture(X,y,n_components=2):
     model = GaussianMixture(n_components=2)

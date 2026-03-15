@@ -1,5 +1,5 @@
 from sklearn.cluster import DBSCAN
-from Ghypeddings.anomaly_detection.utils import calculate_metrics
+from anomaly_detection.utils import calculate_metrics
 
 
 def dbscan(X,y):

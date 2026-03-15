@@ -1,5 +1,5 @@
 from sklearn.cluster import KMeans
-from Ghypeddings.anomaly_detection.utils import calculate_metrics
+from anomaly_detection.utils import calculate_metrics
 import numpy as np
 
 def kmeans(X,y,n_clusters,outlier_percentage=.1):

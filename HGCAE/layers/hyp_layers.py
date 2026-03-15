@@ -11,7 +11,7 @@ import torch.nn.init as init
 from torch.nn.modules.module import Module
 from torch.nn.parameter import Parameter
 
-from Ghypeddings.HGCAE.layers.att_layers import HypAggAtt, SpecialSpmm
+from HGCAE.layers.att_layers import HypAggAtt, SpecialSpmm
 
 
 def get_dim_act_curv(args):

@@ -2,9 +2,9 @@
 Major codes of hyperbolic layers are from HGCN
 '''
 import torch
-from Ghypeddings.HGCAE.manifolds.base import Manifold
+from HGCAE.manifolds.base import Manifold
 from torch.autograd import Function
-from Ghypeddings.HGCAE.utils.math_utils import artanh, tanh
+from HGCAE.utils.math_utils import artanh, tanh
 
 
 class PoincareBall(Manifold):
