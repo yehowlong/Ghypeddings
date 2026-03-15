@@ -6,10 +6,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import Ghypeddings.HGCN.manifolds as manifolds
-import Ghypeddings.HGCN.models.encoders as encoders
-from Ghypeddings.HGCN.models.decoders import model2decoder
-from Ghypeddings.HGCN.utils.eval_utils import acc_f1
+import HGCN.manifolds as manifolds
+import HGCN.models.encoders as encoders
+from HGCN.models.decoders import model2decoder
+from HGCN.utils.eval_utils import acc_f1
 
 
 class BaseModel(nn.Module):

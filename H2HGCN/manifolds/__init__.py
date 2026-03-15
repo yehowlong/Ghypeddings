@@ -1,1 +1,1 @@
-from Ghypeddings.H2HGCN.manifolds.LorentzManifold import LorentzManifold
+from H2HGCN.manifolds.LorentzManifold import LorentzManifold

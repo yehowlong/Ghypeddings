@@ -5,10 +5,10 @@ import os
 import time
 import numpy as np
 import torch
-from Ghypeddings.H2HGCN.models.base_models import NCModel
-from Ghypeddings.H2HGCN.utils.data_utils import process_data
-from Ghypeddings.H2HGCN.utils.train_utils import format_metrics, create_args
-from Ghypeddings.H2HGCN.utils.pre_utils import *
+from H2HGCN.models.base_models import NCModel
+from H2HGCN.utils.data_utils import process_data
+from H2HGCN.utils.train_utils import format_metrics, create_args
+from H2HGCN.utils.pre_utils import *
 import warnings
 warnings.filterwarnings('ignore')
 

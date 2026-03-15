@@ -6,7 +6,7 @@ from scipy.sparse import save_npz, load_npz
 from scipy.sparse.linalg import eigsh
 import sys
 from torch.utils.data import Dataset, DataLoader
-from Ghypeddings.HGNN.utils import *
+from HGNN.utils import *
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 

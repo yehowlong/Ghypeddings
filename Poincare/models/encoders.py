@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import Ghypeddings.Poincare.manifolds as manifolds
+import Poincare.manifolds as manifolds
 
 class Encoder(nn.Module):
     """

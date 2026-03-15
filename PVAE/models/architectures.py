@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from numpy import prod
-from Ghypeddings.PVAE.utils import Constants
-from Ghypeddings.PVAE.ops.manifold_layers import GeodesicLayer, MobiusLayer, LogZero, ExpZero
+from PVAE.utils import Constants
+from PVAE.ops.manifold_layers import GeodesicLayer, MobiusLayer, LogZero, ExpZero
 from torch.nn.modules.module import Module
 
 def get_dim_act(args):

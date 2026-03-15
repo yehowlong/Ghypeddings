@@ -1,5 +1,5 @@
 import numpy as np
-from Ghypeddings.HGNN.utils import *
+from HGNN.utils import *
 import torch as th
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader

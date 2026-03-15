@@ -6,11 +6,11 @@ import os
 import time
 
 import numpy as np
-import Ghypeddings.Poincare.optimizers as optimizers
+import Poincare.optimizers as optimizers
 import torch
-from Ghypeddings.Poincare.models.base_models import NCModel
-from Ghypeddings.Poincare.utils.data_utils import process_data
-from Ghypeddings.Poincare.utils.train_utils import format_metrics, create_args
+from Poincare.models.base_models import NCModel
+from Poincare.utils.data_utils import process_data
+from Poincare.utils.train_utils import format_metrics, create_args
 
 
 class POINCARE:

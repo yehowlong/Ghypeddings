@@ -1,9 +1,9 @@
 """Graph decoders."""
-import Ghypeddings.HGCN.manifolds as manifolds
+import HGCN.manifolds as manifolds
 import torch.nn as nn
 import torch.nn.functional as F
 
-from Ghypeddings.HGCN.layers.layers import Linear
+from HGCN.layers.layers import Linear
 
 
 class Decoder(nn.Module):

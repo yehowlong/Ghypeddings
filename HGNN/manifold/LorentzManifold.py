@@ -2,7 +2,7 @@ import torch as th
 import torch.nn as nn
 import numpy as np
 from torch.autograd import Function, Variable
-from Ghypeddings.HGNN.utils import *
+from HGNN.utils import *
 
 _eps = 1e-10
 

@@ -5,10 +5,10 @@ import torch.nn as nn
 import numpy as np
 from torch.autograd import Function, Variable
 import torch
-from Ghypeddings.H2HGCN.utils import *
-from Ghypeddings.H2HGCN.utils.pre_utils import *
-from Ghypeddings.H2HGCN.manifolds import *
-from Ghypeddings.H2HGCN.utils.math_utils import arcosh, cosh, sinh 
+from H2HGCN.utils import *
+from H2HGCN.utils.pre_utils import *
+from H2HGCN.manifolds import *
+from H2HGCN.utils.math_utils import arcosh, cosh, sinh 
 
 _eps = 1e-10
 

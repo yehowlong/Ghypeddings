@@ -5,13 +5,13 @@ import torch.distributions as dist
 from torch.utils.data import DataLoader
 
 import math
-from Ghypeddings.PVAE.models.vae import VAE
+from PVAE.models.vae import VAE
 
-from Ghypeddings.PVAE.distributions import RiemannianNormal, WrappedNormal
+from PVAE.distributions import RiemannianNormal, WrappedNormal
 from torch.distributions import Normal
-import Ghypeddings.PVAE.manifolds as manifolds
-from Ghypeddings.PVAE.models.architectures import EncWrapped, DecWrapped, EncMob, DecMob, DecGeo
-from Ghypeddings.PVAE.utils import get_activation
+import PVAE.manifolds as manifolds
+from PVAE.models.architectures import EncWrapped, DecWrapped, EncMob, DecMob, DecGeo
+from PVAE.utils import get_activation
 
 class Tabular(VAE):
     """ Derive a specific sub-class of a VAE for tabular data. """

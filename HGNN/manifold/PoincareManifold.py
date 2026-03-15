@@ -2,8 +2,8 @@ import torch as th
 import torch.nn as nn
 import numpy as np
 from torch.autograd import Function, Variable
-from Ghypeddings.HGNN.hyperbolic_module.PoincareDistance import PoincareDistance
-from Ghypeddings.HGNN.utils import *
+from HGNN.hyperbolic_module.PoincareDistance import PoincareDistance
+from HGNN.utils import *
 
 class PoincareManifold:
 

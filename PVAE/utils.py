@@ -301,7 +301,7 @@ def get_activation(args):
         return nn.SELU()
 
 
-from Ghypeddings.classifiers import *
+from classifiers import *
 def get_classifier(args,X,y):
     if(args.classifier):
         if(args.classifier == 'svm'):
@@ -322,7 +322,7 @@ def get_classifier(args,X,y):
             raise NotImplementedError
     
 
-from Ghypeddings.clusterers import *
+from clusterers import *
 def get_clustering_algorithm(clusterer,X,y):
     if(clusterer == 'agglomerative_clustering'):
         return agglomerative_clustering(X,y)
@@ -339,7 +339,7 @@ def get_clustering_algorithm(clusterer,X,y):
     else:
         raise NotImplementedError
     
-from Ghypeddings.anomaly_detection import *
+from anomaly_detection import *
 def get_anomaly_detection_algorithm(algorithm,X,y):
     if(algorithm == 'isolation_forest'):
         return isolation_forest(X,y)

@@ -1,3 +1,3 @@
-from Ghypeddings.HGNN.utils.utils import *
-from Ghypeddings.HGNN.utils.EarlyStoppingCriterion import EarlyStoppingCriterion
-from Ghypeddings.HGNN.utils.logger import *
+from HGNN.utils.utils import *
+from HGNN.utils.EarlyStoppingCriterion import EarlyStoppingCriterion
+from HGNN.utils.logger import *

@@ -1,7 +1,7 @@
 import torch
 import torch.distributions as dist
 from numpy import prod
-from Ghypeddings.PVAE.utils import has_analytic_kl, log_mean_exp
+from PVAE.utils import has_analytic_kl, log_mean_exp
 import torch.nn.functional as F
 
 def vae_objective(model, idx, x , graph, K=1, beta=1.0, components=False, analytical_kl=False, **kwargs):

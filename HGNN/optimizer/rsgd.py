@@ -1,6 +1,6 @@
 import torch as th
 from torch.optim.optimizer import Optimizer, required
-from Ghypeddings.HGNN.utils import *
+from HGNN.utils import *
 import os
 import math
 

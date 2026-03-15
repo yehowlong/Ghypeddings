@@ -6,12 +6,12 @@ import os
 import time
 
 import numpy as np
-import Ghypeddings.HGCN.optimizers as optimizers
+import HGCN.optimizers as optimizers
 import torch
-from Ghypeddings.HGCN.models.base_models import NCModel
-from Ghypeddings.HGCN.utils.data_utils import process_data
-from Ghypeddings.HGCN.utils.train_utils import format_metrics
-from Ghypeddings.HGCN.utils.train_utils import create_args
+from HGCN.models.base_models import NCModel
+from HGCN.utils.data_utils import process_data
+from HGCN.utils.train_utils import format_metrics
+from HGCN.utils.train_utils import create_args
 import warnings
 warnings.filterwarnings('ignore')
 

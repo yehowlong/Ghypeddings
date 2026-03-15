@@ -1,2 +1,2 @@
 from torch.optim import Adam
-from Ghypeddings.Poincare.optimizers.radam import RiemannianAdam
+from Poincare.optimizers.radam import RiemannianAdam

@@ -7,7 +7,7 @@ import torch as th
 import torch.optim as optim
 import numpy as np
 import random
-from Ghypeddings.H2HGCN.optimizers.rsgd import RiemannianSGD
+from H2HGCN.optimizers.rsgd import RiemannianSGD
 import math
 import subprocess
 import random

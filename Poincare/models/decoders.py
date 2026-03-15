@@ -1,8 +1,8 @@
 """Graph decoders."""
-import Ghypeddings.Poincare.manifolds as manifolds
+import Poincare.manifolds as manifolds
 import torch.nn as nn
 import torch.nn.functional as F
-from Ghypeddings.Poincare.layers.layers import  Linear
+from Poincare.layers.layers import  Linear
 import torch
 
 class Decoder(nn.Module):

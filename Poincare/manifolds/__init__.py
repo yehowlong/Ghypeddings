@@ -1,3 +1,3 @@
-from Ghypeddings.Poincare.manifolds.base import ManifoldParameter
-from Ghypeddings.Poincare.manifolds.poincare import PoincareBall
-from Ghypeddings.Poincare.manifolds.euclidean import Euclidean
+from Poincare.manifolds.base import ManifoldParameter
+from Poincare.manifolds.poincare import PoincareBall
+from Poincare.manifolds.euclidean import Euclidean

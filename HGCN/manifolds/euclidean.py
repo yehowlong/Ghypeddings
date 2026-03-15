@@ -1,6 +1,6 @@
 """Euclidean manifold."""
 
-from Ghypeddings.HGCN.manifolds.base import Manifold
+from HGCN.manifolds.base import Manifold
 
 
 class Euclidean(Manifold):

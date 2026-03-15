@@ -1,6 +1,6 @@
 """Euclidean manifold."""
 
-from Ghypeddings.Poincare.manifolds.base import Manifold
+from Poincare.manifolds.base import Manifold
 
 
 class Euclidean(Manifold):

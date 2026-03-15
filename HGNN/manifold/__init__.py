@@ -1,2 +1,2 @@
-from Ghypeddings.HGNN.manifold.PoincareManifold import *
-from Ghypeddings.HGNN.manifold.LorentzManifold import *
+from HGNN.manifold.PoincareManifold import *
+from HGNN.manifold.LorentzManifold import *

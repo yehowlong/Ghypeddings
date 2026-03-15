@@ -2,13 +2,13 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import Ghypeddings.H2HGCN.utils.math_utils as pmath
+import H2HGCN.utils.math_utils as pmath
 import torch as th
-from Ghypeddings.H2HGCN.utils import *
-from Ghypeddings.H2HGCN.utils import pre_utils
-from Ghypeddings.H2HGCN.utils.pre_utils import *
-from Ghypeddings.H2HGCN.manifolds import *
-from Ghypeddings.H2HGCN.layers.CentroidDistance import CentroidDistance
+from H2HGCN.utils import *
+from H2HGCN.utils import pre_utils
+from H2HGCN.utils.pre_utils import *
+from H2HGCN.manifolds import *
+from H2HGCN.layers.CentroidDistance import CentroidDistance
 
 
 class H2HGCN(nn.Module):

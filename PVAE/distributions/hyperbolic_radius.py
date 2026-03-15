@@ -2,9 +2,9 @@ import math
 import torch
 from torch.autograd import Function, grad
 import torch.distributions as dist
-from Ghypeddings.PVAE.utils import Constants, logsinh, log_sum_exp_signs, rexpand
+from PVAE.utils import Constants, logsinh, log_sum_exp_signs, rexpand
 from numbers import Number
-from Ghypeddings.PVAE.distributions.ars import ARS
+from PVAE.distributions.ars import ARS
 
 
 def cdf_r(value, scale, c, dim):

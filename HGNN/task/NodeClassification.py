@@ -1,8 +1,8 @@
 import torch as th
 import torch.nn as nn
 import torch.nn.functional as F
-from Ghypeddings.HGNN.utils import * 
-from Ghypeddings.HGNN.hyperbolic_module.CentroidDistance import CentroidDistance
+from HGNN.utils import * 
+from HGNN.hyperbolic_module.CentroidDistance import CentroidDistance
 
 class NodeClassification(nn.Module):
 

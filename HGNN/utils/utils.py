@@ -7,8 +7,8 @@ import torch as th
 import torch.optim as optim
 import numpy as np
 import random
-from Ghypeddings.HGNN.optimizer.ramsgrad import RiemannianAMSGrad
-from Ghypeddings.HGNN.optimizer.rsgd import RiemannianSGD
+from HGNN.optimizer.ramsgrad import RiemannianAMSGrad
+from HGNN.optimizer.rsgd import RiemannianSGD
 import math
 import subprocess
 import argparse

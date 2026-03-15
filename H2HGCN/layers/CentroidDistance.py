@@ -1,7 +1,7 @@
 import torch as th
 import torch.nn as nn
 import torch.nn.functional as F
-from Ghypeddings.H2HGCN.utils import *
+from H2HGCN.utils import *
 
 class CentroidDistance(nn.Module):
     """

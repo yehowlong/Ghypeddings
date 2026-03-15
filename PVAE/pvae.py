@@ -10,11 +10,11 @@ import numpy as np
 import logging
 import time
 
-from Ghypeddings.PVAE.utils import probe_infnan , process_data , create_args , get_classifier,get_clustering_algorithm,get_anomaly_detection_algorithm
-import Ghypeddings.PVAE.objectives as objectives
-from Ghypeddings.PVAE.models import Tabular
+from PVAE.utils import probe_infnan , process_data , create_args , get_classifier,get_clustering_algorithm,get_anomaly_detection_algorithm
+import PVAE.objectives as objectives
+from PVAE.models import Tabular
 
-from Ghypeddings.classifiers import calculate_metrics
+from classifiers import calculate_metrics
 
 runId = datetime.datetime.now().isoformat().replace(':','_')
 torch.backends.cudnn.benchmark = True

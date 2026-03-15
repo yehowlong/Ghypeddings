@@ -1,7 +1,7 @@
-from Ghypeddings.HGNN.task import *
-from Ghypeddings.HGNN.utils import *
-from Ghypeddings.HGNN.manifold import *
-from Ghypeddings.HGNN.gnn import RiemannianGNN
+from HGNN.task import *
+from HGNN.utils import *
+from HGNN.manifold import *
+from HGNN.gnn import RiemannianGNN
 
 class HGNN:
     def __init__(self,

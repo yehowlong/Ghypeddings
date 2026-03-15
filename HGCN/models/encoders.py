@@ -5,12 +5,12 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import Ghypeddings.HGCN.manifolds as manifolds
-import Ghypeddings.HGCN.layers.hyp_layers as hyp_layers
-import Ghypeddings.HGCN.utils.math_utils as pmath
+import HGCN.manifolds as manifolds
+import HGCN.layers.hyp_layers as hyp_layers
+import HGCN.utils.math_utils as pmath
 
-from Ghypeddings.HGCN.layers.layers import GraphConvolution, Linear, get_dim_act
-from Ghypeddings.HGCN.layers.att_layers import GraphAttentionLayer
+from HGCN.layers.layers import GraphConvolution, Linear, get_dim_act
+from HGCN.layers.att_layers import GraphAttentionLayer
 
 class Encoder(nn.Module):
     """

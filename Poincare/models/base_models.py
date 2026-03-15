@@ -6,10 +6,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import Ghypeddings.Poincare.manifolds as manifolds
-import Ghypeddings.Poincare.models.encoders as encoders
-from Ghypeddings.Poincare.models.decoders import model2decoder
-from Ghypeddings.Poincare.utils.eval_utils import acc_f1
+import Poincare.manifolds as manifolds
+import Poincare.models.encoders as encoders
+from Poincare.models.decoders import model2decoder
+from Poincare.utils.eval_utils import acc_f1
 
 
 class BaseModel(nn.Module):

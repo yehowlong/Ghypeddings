@@ -1,6 +1,6 @@
 """Riemannian adam optimizer geoopt implementation (https://github.com/geoopt/)."""
 import torch.optim
-from Ghypeddings.HGCAE.manifolds import Euclidean,ManifoldParameter
+from manifolds import Euclidean,ManifoldParameter
 
 _default_manifold = Euclidean()
 

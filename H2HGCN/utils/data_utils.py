@@ -6,7 +6,7 @@ import networkx as nx
 import numpy as np
 import scipy.sparse as sp
 import torch
-from Ghypeddings.H2HGCN.utils.pre_utils import *
+from H2HGCN.utils.pre_utils import *
 
 def convert_hgnn_adj(adj):
     hgnn_adj = [[i] for i in range(adj.shape[0])]

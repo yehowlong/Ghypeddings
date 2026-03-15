@@ -1,1 +1,1 @@
-from Ghypeddings.HGNN.gnn.RiemannianGNN import RiemannianGNN
+from HGNN.gnn.RiemannianGNN import RiemannianGNN

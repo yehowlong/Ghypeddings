@@ -1,7 +1,7 @@
 import torch as th
 import torch.nn as nn
 import torch.nn.functional as F
-from Ghypeddings.HGNN.utils import *
+from HGNN.utils import *
 
 class RiemannianGNN(nn.Module):
 

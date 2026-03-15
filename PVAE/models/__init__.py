@@ -1,2 +1,2 @@
-from Ghypeddings.PVAE.models.tabular import Tabular
+from PVAE.models.tabular import Tabular
 __all__ = [Tabular]

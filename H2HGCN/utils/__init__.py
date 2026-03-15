@@ -1,1 +1,1 @@
-from Ghypeddings.H2HGCN.utils.pre_utils import *
+from H2HGCN.utils.pre_utils import *

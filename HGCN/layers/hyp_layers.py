@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import torch.nn.init as init
 from torch.nn.modules.module import Module
 
-from Ghypeddings.HGCN.layers.att_layers import DenseAtt
+from HGCN.layers.att_layers import DenseAtt
 
 
 def get_dim_act_curv(args):

@@ -3,7 +3,7 @@ import torch
 from torch import nn
 from torch.nn.parameter import Parameter
 from torch.nn import init
-from Ghypeddings.PVAE.manifolds import PoincareBall, Euclidean
+from PVAE.manifolds import PoincareBall, Euclidean
 from geoopt import ManifoldParameter
 
 

@@ -1,7 +1,7 @@
 """Graph decoders."""
 import torch.nn as nn
 import torch.nn.functional as F
-from Ghypeddings.H2HGCN.layers.layers import Linear
+from H2HGCN.layers.layers import Linear
 
 class Decoder(nn.Module):
     """

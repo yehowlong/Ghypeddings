@@ -3,11 +3,11 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import Ghypeddings.H2HGCN.models.encoders as encoders
-from Ghypeddings.H2HGCN.models.encoders import H2HGCN
-from Ghypeddings.H2HGCN.models.decoders import model2decoder
-from Ghypeddings.H2HGCN.utils.eval_utils import acc_f1
-from Ghypeddings.H2HGCN.manifolds import LorentzManifold
+import H2HGCN.models.encoders as encoders
+from H2HGCN.models.encoders import H2HGCN
+from H2HGCN.models.decoders import model2decoder
+from H2HGCN.utils.eval_utils import acc_f1
+from H2HGCN.manifolds import LorentzManifold
 
  
 class BaseModel(nn.Module):

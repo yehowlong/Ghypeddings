@@ -1,4 +1,4 @@
-from HGCAE.models.base_models import LPModel
+from models.base_models import LPModel
 import logging
 import torch
 import numpy as np
@@ -7,7 +7,7 @@ import time
 from HGCAE.utils.train_utils import get_dir_name, format_metrics
 from HGCAE.utils.data_utils import process_data
 from HGCAE.utils.train_utils import create_args , get_classifier ,get_clustering_algorithm,get_anomaly_detection_algorithm
-import HGCAE.optimizers as optimizers
+import optimizers as optimizers
 from HGCAE.utils.data_utils import sparse_mx_to_torch_sparse_tensor
 
 from classifiers import calculate_metrics

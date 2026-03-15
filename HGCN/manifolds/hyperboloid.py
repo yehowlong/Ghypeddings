@@ -2,8 +2,8 @@
 
 import torch
 
-from Ghypeddings.HGCN.manifolds.base import Manifold
-from Ghypeddings.HGCN.utils.math_utils import arcosh, cosh, sinh 
+from HGCN.manifolds.base import Manifold
+from HGCN.utils.math_utils import arcosh, cosh, sinh 
 
 
 class Hyperboloid(Manifold):

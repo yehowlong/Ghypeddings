@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.distributions as dist
-from Ghypeddings.PVAE.utils import get_mean_param
+from PVAE.utils import get_mean_param
 
 class VAE(nn.Module):
     def __init__(self, prior_dist, posterior_dist, likelihood_dist, enc, dec, params):

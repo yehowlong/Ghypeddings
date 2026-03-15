@@ -1,7 +1,7 @@
 import logging
 import time
 from datetime import timedelta
-from Ghypeddings.HGNN.utils import make_dir
+from HGNN.utils import make_dir
 
 class LogFormatter():
 

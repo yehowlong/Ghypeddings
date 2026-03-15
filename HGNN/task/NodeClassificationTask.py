@@ -1,13 +1,13 @@
 import torch as th
 import torch.nn as nn
 import torch.nn.functional as F
-from Ghypeddings.HGNN.utils import * 
+from HGNN.utils import * 
 from torch.utils.data import DataLoader
 import torch.optim as optim
-from Ghypeddings.HGNN.task.BaseTask import BaseTask
+from HGNN.task.BaseTask import BaseTask
 import numpy as np
-from Ghypeddings.HGNN.dataset.NodeClassificationDataset import NodeClassificationDataset
-from Ghypeddings.HGNN.task.NodeClassification import NodeClassification
+from HGNN.dataset.NodeClassificationDataset import NodeClassificationDataset
+from HGNN.task.NodeClassification import NodeClassification
 import time
 from sklearn.metrics import roc_auc_score,accuracy_score,f1_score,precision_score,recall_score
 
